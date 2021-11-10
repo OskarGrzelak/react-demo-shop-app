@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useCart } from '../../hooks/useCart'
+import { useTimeout } from '../../hooks/useTimeout'
 import Input from '../Input/Input'
 import { ReactComponent as TimesIcon } from '../../images/icon-times.svg'
 import { ReactComponent as TrashIcon } from '../../images/icon-trash.svg'
@@ -7,11 +8,19 @@ import classes from './ShoppingCartItem.module.css'
 
 const ShoppingCartItem = ({ item }) => {
   const { updateQuantity, deleteFromCart } = useCart()
+  const [timer, runTimer, clearTimer] = useTimeout(
+    () => deleteFromCart(item),
+    1500
+  )
 
   const handleChange = (e, item) => {
+    if (timer) clearTimer()
     const quantity = parseInt(e.target.value)
     if (quantity > 0) {
       updateQuantity(item, quantity)
+    } else if (quantity === 0 || isNaN(quantity)) {
+      updateQuantity(item, '')
+      runTimer()
     }
   }
 
