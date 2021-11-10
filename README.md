@@ -29,7 +29,6 @@ The task was to make a simple shop app. Requirements:
 ### Screenshot
 
 ![Screenshot](./shop-screenshot.png)
-
 ![Screenshot](./cart-screenshot.png)
 
 ### Links
