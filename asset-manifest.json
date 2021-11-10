@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-demo-shop-app/static/css/main.70b342e6.chunk.css",
+    "main.js": "/react-demo-shop-app/static/js/main.2e573b0a.chunk.js",
+    "main.js.map": "/react-demo-shop-app/static/js/main.2e573b0a.chunk.js.map",
+    "runtime-main.js": "/react-demo-shop-app/static/js/runtime-main.2f5c5a72.js",
+    "runtime-main.js.map": "/react-demo-shop-app/static/js/runtime-main.2f5c5a72.js.map",
+    "static/js/2.a53d84a7.chunk.js": "/react-demo-shop-app/static/js/2.a53d84a7.chunk.js",
+    "static/js/2.a53d84a7.chunk.js.map": "/react-demo-shop-app/static/js/2.a53d84a7.chunk.js.map",
+    "static/js/3.aa47f0df.chunk.js": "/react-demo-shop-app/static/js/3.aa47f0df.chunk.js",
+    "static/js/3.aa47f0df.chunk.js.map": "/react-demo-shop-app/static/js/3.aa47f0df.chunk.js.map",
+    "index.html": "/react-demo-shop-app/index.html",
+    "static/css/main.70b342e6.chunk.css.map": "/react-demo-shop-app/static/css/main.70b342e6.chunk.css.map",
+    "static/js/2.a53d84a7.chunk.js.LICENSE.txt": "/react-demo-shop-app/static/js/2.a53d84a7.chunk.js.LICENSE.txt",
+    "static/media/icon-cart.d146d6c3.svg": "/react-demo-shop-app/static/media/icon-cart.d146d6c3.svg",
+    "static/media/icon-facebook.60fb55ea.svg": "/react-demo-shop-app/static/media/icon-facebook.60fb55ea.svg",
+    "static/media/icon-instagram.6682caac.svg": "/react-demo-shop-app/static/media/icon-instagram.6682caac.svg",
+    "static/media/icon-times.ea7c95d7.svg": "/react-demo-shop-app/static/media/icon-times.ea7c95d7.svg",
+    "static/media/icon-trash.6346df54.svg": "/react-demo-shop-app/static/media/icon-trash.6346df54.svg",
+    "static/media/icon-twitter.c152e945.svg": "/react-demo-shop-app/static/media/icon-twitter.c152e945.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f5c5a72.js",
+    "static/js/2.a53d84a7.chunk.js",
+    "static/css/main.70b342e6.chunk.css",
+    "static/js/main.2e573b0a.chunk.js"
+  ]
+}
